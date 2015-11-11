@@ -7,3 +7,6 @@ C:\Users\Kenn\Desktop\Ny mappe\TCPService\obj\Debug\TCPService.TCPService.resour
 C:\Users\Kenn\Desktop\Ny mappe\TCPService\obj\Debug\TCPService.csproj.GenerateResource.Cache
 C:\Users\Kenn\Desktop\Ny mappe\TCPService\obj\Debug\TCPService.exe
 C:\Users\Kenn\Desktop\Ny mappe\TCPService\obj\Debug\TCPService.pdb
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPService\bin\Debug\TCPService.exe.config
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPService\obj\Debug\TCPService.exe
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPService\obj\Debug\TCPService.pdb

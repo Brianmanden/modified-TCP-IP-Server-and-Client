@@ -19,7 +19,10 @@ namespace TCPClient
 		static void Main(string[] args)
 		{
 			TCPClient client = null;
-			client = new TCPClient("SatyaTest.cfg\r\n");
+            DateTime tick = DateTime.Now;
+            var fileName = tick.ToString("yyyy-MM-dd---HH-mm-ss");
+
+			client = new TCPClient(fileName + ".txt\r\n");
             /*
 			client = new TCPClient("SatyaTest1.cfg\r\n");
 			client = new TCPClient("SatyaTest2.cfg\r\n");
@@ -50,14 +53,24 @@ namespace TCPClient
 			clientSocket.Receive(data);
 			int length=BitConverter.ToInt32(data,0);
 
-			clientSocket.Send(Encoding.ASCII.GetBytes(m_fileName+":"+"this is a test\r\n"));
+            string macro = "start";
+            string pathExec = "C:\\Program Files(x86)\\Google\\Chrome\\Application\\chrome.exe\\";
+            string param1 = "http://www.kree8tive.dk";
+            string CRLF = "\r\n";
+            byte[] cmdStr = Encoding.ASCII.GetBytes(macro+ " \"" + pathExec + "\" \"" + param1 + "\"" + CRLF);
 
-			clientSocket.Send(Encoding.ASCII.GetBytes(m_fileName+":"+"THIS IS "));
-			clientSocket.Send(Encoding.ASCII.GetBytes("ANOTHRER "));
-			clientSocket.Send(Encoding.ASCII.GetBytes("TEST."));
-			clientSocket.Send(Encoding.ASCII.GetBytes("\r\n"));
-			clientSocket.Send(Encoding.ASCII.GetBytes(m_fileName+":"+"TEST.\r\n"+m_fileName+":"+"TEST AGAIN.\r\n"));
-			clientSocket.Send(Encoding.ASCII.GetBytes("[EOF]\r\n"));
+            Console.WriteLine(cmdStr);
+            clientSocket.Send(cmdStr);
+
+            /*
+            clientSocket.Send(Encoding.ASCII.GetBytes(m_fileName+":"+"this is a test\r\n"));
+            clientSocket.Send(Encoding.ASCII.GetBytes(m_fileName+":"+"THIS IS "));
+            clientSocket.Send(Encoding.ASCII.GetBytes("ANOTHRER "));
+            clientSocket.Send(Encoding.ASCII.GetBytes("TEST."));
+            clientSocket.Send(Encoding.ASCII.GetBytes("\r\n"));
+            clientSocket.Send(Encoding.ASCII.GetBytes(m_fileName+":"+"TEST.\r\n"+m_fileName+":"+"TEST AGAIN.\r\n"));
+            */
+            clientSocket.Send(Encoding.ASCII.GetBytes("[EOF]\r\n"));
 
 			// Get the total length
 			clientSocket.Receive(data);

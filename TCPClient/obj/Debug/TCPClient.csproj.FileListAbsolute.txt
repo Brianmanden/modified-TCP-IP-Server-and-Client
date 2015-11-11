@@ -7,3 +7,9 @@ C:\Users\Kenn\Desktop\TCPClient\obj\Debug\TCPClient.pdb
 C:\Users\Kenn\Desktop\Ny mappe\TCPClient\bin\Debug\TCPClient.exe.config
 C:\Users\Kenn\Desktop\Ny mappe\TCPClient\obj\Debug\TCPClient.exe
 C:\Users\Kenn\Desktop\Ny mappe\TCPClient\obj\Debug\TCPClient.pdb
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPClient\bin\Debug\TCPClient.exe.config
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPClient\obj\Debug\TCPClient.exe
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPClient\obj\Debug\TCPClient.pdb
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPClient\bin\Debug\TCPClient.exe
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPClient\bin\Debug\TCPClient.pdb
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPClient\obj\Debug\TCPClient.csprojResolveAssemblyReference.cache
