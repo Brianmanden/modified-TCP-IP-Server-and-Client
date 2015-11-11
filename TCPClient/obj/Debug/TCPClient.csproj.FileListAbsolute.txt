@@ -1,0 +1,9 @@
+C:\Users\Kenn\Desktop\TCPClient\bin\Debug\TCPClient.exe.config
+C:\Users\Kenn\Desktop\TCPClient\bin\Debug\TCPClient.exe
+C:\Users\Kenn\Desktop\TCPClient\bin\Debug\TCPClient.pdb
+C:\Users\Kenn\Desktop\TCPClient\obj\Debug\TCPClient.csprojResolveAssemblyReference.cache
+C:\Users\Kenn\Desktop\TCPClient\obj\Debug\TCPClient.exe
+C:\Users\Kenn\Desktop\TCPClient\obj\Debug\TCPClient.pdb
+C:\Users\Kenn\Desktop\Ny mappe\TCPClient\bin\Debug\TCPClient.exe.config
+C:\Users\Kenn\Desktop\Ny mappe\TCPClient\obj\Debug\TCPClient.exe
+C:\Users\Kenn\Desktop\Ny mappe\TCPClient\obj\Debug\TCPClient.pdb

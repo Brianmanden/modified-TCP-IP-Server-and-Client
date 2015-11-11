@@ -1,0 +1,9 @@
+C:\Users\Kenn\Desktop\Ny mappe\TCPService\bin\Debug\TCPService.exe.config
+C:\Users\Kenn\Desktop\Ny mappe\TCPService\bin\Debug\TCPService.exe
+C:\Users\Kenn\Desktop\Ny mappe\TCPService\bin\Debug\TCPService.pdb
+C:\Users\Kenn\Desktop\Ny mappe\TCPService\obj\Debug\TCPService.csprojResolveAssemblyReference.cache
+C:\Users\Kenn\Desktop\Ny mappe\TCPService\obj\Debug\TCPService.TCPInstaller.resources
+C:\Users\Kenn\Desktop\Ny mappe\TCPService\obj\Debug\TCPService.TCPService.resources
+C:\Users\Kenn\Desktop\Ny mappe\TCPService\obj\Debug\TCPService.csproj.GenerateResource.Cache
+C:\Users\Kenn\Desktop\Ny mappe\TCPService\obj\Debug\TCPService.exe
+C:\Users\Kenn\Desktop\Ny mappe\TCPService\obj\Debug\TCPService.pdb
