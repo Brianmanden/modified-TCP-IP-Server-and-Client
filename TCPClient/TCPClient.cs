@@ -53,14 +53,17 @@ namespace TCPClient
 			clientSocket.Receive(data);
 			int length=BitConverter.ToInt32(data,0);
 
-            string macro = "start";
-            string pathExec = "C:\\Program Files(x86)\\Google\\Chrome\\Application\\chrome.exe\\";
-            string param1 = "http://www.kree8tive.dk";
+            var macro = new {
+                cmd         =   "start",
+                pathExec    =   "C:\\Program Files(x86)\\Google\\Chrome\\Application\\chrome.exe\\",
+                param1      =   "http://www.kree8tive.dk"
+            };
+            
             string CRLF = "\r\n";
-            byte[] cmdStr = Encoding.ASCII.GetBytes(macro+ " \"" + pathExec + "\" \"" + param1 + "\"" + CRLF);
+            byte[] byteStream = Encoding.ASCII.GetBytes(macro + CRLF);
 
-            Console.WriteLine(cmdStr);
-            clientSocket.Send(cmdStr);
+            Console.WriteLine(byteStream);
+            clientSocket.Send(byteStream);
 
             /*
             clientSocket.Send(Encoding.ASCII.GetBytes(m_fileName+":"+"this is a test\r\n"));

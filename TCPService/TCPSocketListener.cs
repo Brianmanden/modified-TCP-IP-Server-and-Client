@@ -19,9 +19,9 @@ namespace TCPService
 		/// Variables that are accessed by other classes indirectly.
 		/// </summary>
 		private Socket m_clientSocket = null;
-		private bool m_stopClient=false;
-		private Thread m_clientListenerThread=null;
-		private bool m_markedForDeletion=false;
+		private bool m_stopClient = false;
+		private Thread m_clientListenerThread = null;
+		private bool m_markedForDeletion = false;
 
 		/// <summary>
 		/// Working Variables.
@@ -52,7 +52,7 @@ namespace TCPService
 		/// Method that starts SocketListener Thread.
 		/// </summary>
 		public void StartSocketListener(){
-			if (m_clientSocket!= null){
+			if (m_clientSocket != null){
 				m_clientListenerThread = new Thread(new ThreadStart(SocketListenerThreadStart));
 				m_clientListenerThread.Start();
 			}
@@ -65,7 +65,7 @@ namespace TCPService
 		/// loop. The recieve is an indefinite time receive.
 		/// </summary>
 		private void SocketListenerThreadStart(){
-			int size=0;
+			int size = 0;
 			Byte [] byteBuffer = new Byte[1024];
 
 			m_lastReceiveDateTime = DateTime.Now;
@@ -148,7 +148,7 @@ namespace TCPService
 			    }
 			    else{
 					// Just append to the existing buffer.
-					m_oneLineBuf=m_oneLineBuf.Append(data);
+					m_oneLineBuf = m_oneLineBuf.Append(data);
 				}
 			}while(lineEndIndex != -1);
 		}
