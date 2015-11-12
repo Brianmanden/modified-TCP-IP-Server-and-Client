@@ -1,0 +1,7 @@
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPService\bin\Release\TCPService.exe.config
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPService\bin\Release\TCPService.exe
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPService\obj\Release\TCPService.csprojResolveAssemblyReference.cache
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPService\obj\Release\TCPService.TCPInstaller.resources
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPService\obj\Release\TCPService.TCPService.resources
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPService\obj\Release\TCPService.csproj.GenerateResource.Cache
+C:\Users\Kenn\Documents\Visual Studio 2015\Projects\modified-TCP-IP-Server-and-Client\TCPService\obj\Release\TCPService.exe

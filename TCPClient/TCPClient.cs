@@ -53,6 +53,7 @@ namespace TCPClient
 			clientSocket.Receive(data);
 			int length=BitConverter.ToInt32(data,0);
 
+            /*
             var macro = new {
                 cmd         =   "start",
                 pathExec    =   "C:\\Program Files(x86)\\Google\\Chrome\\Application\\chrome.exe\\",
@@ -64,15 +65,15 @@ namespace TCPClient
 
             Console.WriteLine(byteStream);
             clientSocket.Send(byteStream);
+            */
 
-            /*
             clientSocket.Send(Encoding.ASCII.GetBytes(m_fileName+":"+"this is a test\r\n"));
             clientSocket.Send(Encoding.ASCII.GetBytes(m_fileName+":"+"THIS IS "));
             clientSocket.Send(Encoding.ASCII.GetBytes("ANOTHRER "));
             clientSocket.Send(Encoding.ASCII.GetBytes("TEST."));
             clientSocket.Send(Encoding.ASCII.GetBytes("\r\n"));
             clientSocket.Send(Encoding.ASCII.GetBytes(m_fileName+":"+"TEST.\r\n"+m_fileName+":"+"TEST AGAIN.\r\n"));
-            */
+            
             clientSocket.Send(Encoding.ASCII.GetBytes("[EOF]\r\n"));
 
 			// Get the total length
