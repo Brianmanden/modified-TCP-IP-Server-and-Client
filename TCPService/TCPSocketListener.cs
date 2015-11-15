@@ -205,7 +205,7 @@ namespace TCPService
                     if (length <= 2)
                     {
                         m_processState = STATE.FILE_CLOSED;
-                        length = -1;
+                        length = -1234;
                     }
                     else
                     {
@@ -217,7 +217,7 @@ namespace TCPService
                         catch (Exception e)
                         {
                             m_processState = STATE.FILE_CLOSED;
-                            length = -1;
+                            length = -111;
                         }
                     }
 
